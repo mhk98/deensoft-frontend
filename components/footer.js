@@ -1,0 +1,58 @@
+import Link from "next/link";
+import { footerLinks } from "@/lib/site-data";
+
+export function Footer() {
+  return (
+    <footer className="site-footer">
+      <div className="container footer-grid">
+        <div>
+          <Link href="/" className="brand brand-footer">
+            <img
+              className="brand-logo"
+              src="/images/logo.png"
+              alt="DeenSoft"
+            />
+            <span>
+              <strong>DeenSoft</strong>
+              <small>Affordable CRM for education teams</small>
+            </span>
+          </Link>
+          <p className="footer-copy">
+            DeenSoft-style software helps education consultancies and coaching
+            institutes centralize data, reduce manual follow-ups and deliver a
+            better student journey.
+          </p>
+        </div>
+
+        <div>
+          <h4>Useful Links</h4>
+          <div className="footer-links">
+            {footerLinks.map((item) => (
+              <Link key={item.href} href={item.href}>
+                {item.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <h4>Contact</h4>
+          <div className="footer-contact">
+            <p>info@deensoft.org</p>
+            <p>+8801518301098</p>
+            <p>Bangladesh &amp; India</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="container footer-bottom">
+        <p>© 2026 DeenSoft. All rights reserved.</p>
+        <div className="footer-meta">
+          <Link href="/pricing">Pricing</Link>
+          <Link href="/resources">Resources</Link>
+          <Link href="/contact">Contact</Link>
+        </div>
+      </div>
+    </footer>
+  );
+}
