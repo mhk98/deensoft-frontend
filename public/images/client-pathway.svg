@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 70">
+  <rect width="220" height="70" rx="14" fill="#ffffff"/>
+  <path d="M22 45c18-30 46-30 64 0" fill="none" stroke="#22b04c" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="54" cy="30" r="9" fill="#0b2559"/>
+  <text x="96" y="32" fill="#0b2559" font-family="Arial, sans-serif" font-size="17" font-weight="700">Pathway</text>
+  <text x="96" y="50" fill="#536079" font-family="Arial, sans-serif" font-size="12">Global</text>
+</svg>

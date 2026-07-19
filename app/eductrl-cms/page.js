@@ -5,7 +5,7 @@ export const metadata = {
   title: "DeenSoft CMS | DeenSoft"
 };
 
-export default function EduCtrlCmsPage() {
+export default function DeenSoftCmsPage() {
   return (
     <>
       <CmsCloneContent />

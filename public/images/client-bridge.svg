@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 70">
+  <rect width="220" height="70" rx="14" fill="#ffffff"/>
+  <path d="M24 46h62M32 46V30m18 16V22m18 24V30" stroke="#22b04c" stroke-width="6" stroke-linecap="round"/>
+  <path d="M30 29c15-16 34-16 50 0" fill="none" stroke="#0b2559" stroke-width="5" stroke-linecap="round"/>
+  <text x="98" y="32" fill="#0b2559" font-family="Arial, sans-serif" font-size="18" font-weight="700">Bridge</text>
+  <text x="98" y="50" fill="#536079" font-family="Arial, sans-serif" font-size="12">Academy</text>
+</svg>

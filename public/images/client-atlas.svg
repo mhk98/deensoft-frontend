@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 70">
+  <rect width="220" height="70" rx="14" fill="#ffffff"/>
+  <circle cx="49" cy="35" r="23" fill="#e7f6ee"/>
+  <path d="M49 14v42M28 35h42M35 22c9 8 19 8 28 0M35 48c9-8 19-8 28 0" fill="none" stroke="#22b04c" stroke-width="4" stroke-linecap="round"/>
+  <text x="92" y="32" fill="#0b2559" font-family="Arial, sans-serif" font-size="18" font-weight="700">Atlas</text>
+  <text x="92" y="50" fill="#536079" font-family="Arial, sans-serif" font-size="12">Overseas</text>
+</svg>

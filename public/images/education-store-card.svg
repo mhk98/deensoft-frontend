@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Education business online store illustration</title>
+  <desc id="desc">An e-commerce storefront dashboard with order, catalog and payment widgets.</desc>
+  <rect width="720" height="420" rx="28" fill="#eef7ff"/>
+  <rect x="70" y="70" width="580" height="286" rx="24" fill="#ffffff" stroke="#dbeafe"/>
+  <path d="M98 118h524l-32 66H130z" fill="#0b2559"/>
+  <rect x="130" y="184" width="460" height="132" rx="18" fill="#f4fbf6"/>
+  <rect x="156" y="214" width="110" height="76" rx="14" fill="#fff" stroke="#d8eadf"/>
+  <rect x="304" y="214" width="110" height="76" rx="14" fill="#fff" stroke="#d8eadf"/>
+  <rect x="452" y="214" width="110" height="76" rx="14" fill="#fff" stroke="#d8eadf"/>
+  <g fill="none" stroke="#22b04c" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M184 236h34l8 30h38"/>
+    <circle cx="216" cy="278" r="5"/>
+    <circle cx="254" cy="278" r="5"/>
+    <path d="M344 254h42M344 236h50M344 272h30"/>
+    <rect x="490" y="232" width="36" height="42" rx="7"/>
+  </g>
+  <rect x="150" y="96" width="160" height="14" rx="7" fill="#ffffff" opacity=".86"/>
+  <rect x="474" y="96" width="92" height="14" rx="7" fill="#22b04c"/>
+</svg>

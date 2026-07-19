@@ -14,8 +14,8 @@ const rawHtml = String.raw`
                <div class="col-md-12">
                    <div class="offcanvas-wrapper">
                        <div class="offcanvas-inner">
-                           <a href="https://www.eductrl.com" class="logo">
-                               <img src="https://www.eductrl.com/images/eductrl-logo.png" alt="EduCtrl" style="width: 60%;">
+                           <a href="/" class="logo">
+                               <img src="/images/logo.png" alt="DeenSoft" style="width: 60%;">
                            </a>
                            <p style="color:#000;margin-bottom: 0px;">DeenSoft is a feature-rich software for Overseas Education Consultancy Business, HolyDeen Store &amp; E-Commerce Solution.</p>
                            <div class="row">
@@ -53,12 +53,12 @@ const rawHtml = String.raw`
                            <!-- End Contact Row -->
                            <div class="footer-social-link">
                                <ul>
-                                   <li><a target="_blank" href="https://fb.me/eductrlcrm"><i
+                                   <li><a target="_blank" href="#"><i
                                                class="fa fa-facebook"></i></a></li>
-                                   <li><a target="_blank" href="https://x.com/eductrlcrm" aria-label="X (Twitter)"><span class="x-logo-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></span></a></li>
-                                   <li><a target="_blank" href="https://www.linkedin.com/company/eductrl/"><i
+                                   <li><a target="_blank" href="#" aria-label="X (Twitter)"><span class="x-logo-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></span></a></li>
+                                   <li><a target="_blank" href="#"><i
                                                class="fa fa-linkedin"></i></a></li>
-                     <li><a href="https://www.instagram.com/eductrlcrm"><i class="fa fa-instagram"></i></a></li>
+                     <li><a href="#"><i class="fa fa-instagram"></i></a></li>
 
                                    <!-- <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                            <li><a href="#"><i class="fa fa-instagram"></i></a></li> -->
@@ -104,8 +104,8 @@ const rawHtml = String.raw`
                                feel free to
                                explore our live software demo:
                            </p>
-                           <a href="https://demo.eductrl.com/cn4" class="text-primary font-weight-bold" target="_blank"
-                               style="font-size: 1rem;">https://demo.eductrl.com/cn4</a>
+                           <a href="#" class="text-primary font-weight-bold" target="_blank"
+                               style="font-size: 1rem;">#</a>
                            <div class="mt-4 text-start mx-auto" style="max-width: 400px;">
                                <p class="mb-2" style="font-size: 0.95rem;"><strong>Admin Login:</strong>
                                    admin@demo.com / 123456
@@ -445,12 +445,12 @@ const rawHtml = String.raw`
             <div class="col-md-4 ml-auto text-right">
                <div class="top-social-links">
                   <span>Follow us:</span>
-                  <a target="_blank" href="https://fb.me/eductrlcrm"><i class="fa fa-facebook"></i></a>
-                  <a target="_blank" href="https://x.com/eductrlcrm" aria-label="X (Twitter)"><span class="x-logo-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></span></a>
-                  <a target="_blank" href="https://www.linkedin.com/company/eductrl/"><i class="fa fa-linkedin"></i></a>
+                  <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                  <a target="_blank" href="#" aria-label="X (Twitter)"><span class="x-logo-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></span></a>
+                  <a target="_blank" href="#"><i class="fa fa-linkedin"></i></a>
 
                   <!-- <a href="#"><i class="fa fa-google-plus"></i></a> -->
-                  <a href="https://www.instagram.com/eductrlcrm"><i class="fa fa-instagram"></i></a> 
+                  <a href="#"><i class="fa fa-instagram"></i></a> 
                </div>
             </div>
             <!-- Col End -->
@@ -466,8 +466,8 @@ const rawHtml = String.raw`
     <div class="tw-header">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-new-blue p-2">
-                <a class="navbar-brand tw-nav-brand header-size" href="https://www.eductrl.com">
-                    <img src="https://www.eductrl.com/images/eductrl-logo.png" alt="EduCtrl" class="header-logo-size">
+                <a class="navbar-brand tw-nav-brand header-size" href="/">
+                    <img src="/images/logo.png" alt="DeenSoft" class="header-logo-size">
                 </a>
                 <!-- End of Navbar Brand -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -478,7 +478,7 @@ const rawHtml = String.raw`
                 <!-- End of Navbar toggler -->
                 <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link p-2" href="https://www.eductrl.com">Home</a></li>
+                        <li class="nav-item"><a class="nav-link p-2" href="/">Home</a></li>
 
                         <li class="nav-item dropdown">
                             <a class="nav-link p-2" href="#" data-toggle="dropdown">
@@ -488,8 +488,8 @@ const rawHtml = String.raw`
                             <ul id="tw-megamenu" class="dropdown-menu tw-mega-menu p-4" style="min-width: 500px;">
                                 <div class="row justify-content-start p-2">
                                     <div class="col-6 mb-3 hover-scale p-3">
-                                        <a href="https://www.eductrl.com/consultancy">
-                                            <p class="font-weight-bold m-0 p-0" style="font-size:15px;">Consultancy CRM</p>
+                                        <a href="/consultancy">
+                                            <p class="font-weight-bold m-0 p-0" style="font-size:15px;">EduConnect CRM</p>
                                             <p class="text-muted p-0 m-0 mt-2">CRM software for study abroad consultancy</p>
                                         </a>
                                     </div>
@@ -510,13 +510,13 @@ const rawHtml = String.raw`
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link p-2" href="https://www.eductrl.com/pricing">Pricing</a>
+                            <a class="nav-link p-2" href="/pricing">Pricing</a>
                         </li>
 
                         <li class="nav-item"><a class="nav-link p-2" href="/blog">Blog</a></li>
 
-                        <li class="nav-item"><a class="nav-link p-2" href="https://www.eductrl.com/about">About Us</a></li>
-                        <li class="nav-item"><a class="nav-link p-2" href="https://www.eductrl.com/contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link p-2" href="/about">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link p-2" href="/contact">Contact</a></li>
 
                         <li class="text-center mt-2 d-md-none d-sm-block">
                             <button class="btn btn-dark" data-toggle="modal" data-target="#enquiryModal"
@@ -620,7 +620,7 @@ const rawHtml = String.raw`
             <p style="color:#22b04c;font-weight:700;font-size:0.85rem;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:8px;">Live Showcase</p>
             <h3 style="color:#fff;font-size:1.6rem;margin-bottom:10px;">HolyDeen Store</h3>
             <p style="color:rgba(255,255,255,0.8);font-size:0.95rem;line-height:1.7;margin-bottom:16px;">Bangladesh's premier Islamic lifestyle e-commerce platform — built by DeenSoft. 8 product categories, 500+ products, 10+ brands.</p>
-            <a href="https://holydeen.vercel.app" target="_blank" rel="noopener" class="btn btn-dark" style="padding:10px 24px;">Visit HolyDeen Store &#8594;</a>
+            <a href="#" target="_blank" rel="noopener" class="btn btn-dark" style="padding:10px 24px;">Visit HolyDeen Store &#8594;</a>
           </div>
         </div>
       </div>
@@ -641,46 +641,55 @@ const rawHtml = String.raw`
     <div class="row" style="margin-top:40px;">
       <div class="col-md-4 text-center wow fadeInUp" style="margin-bottom:30px;">
         <div class="tw-service-box features-box" style="padding:32px 24px 48px;">
+          <div class="service-icon service-icon-bg-1 d-table"><div class="service-icon-inner d-table-cell"><i class="fa fa-cubes"></i></div></div>
           <div class="service-content"><h3>Product Management</h3><p>Add, edit and organize unlimited products with categories, variants and stock tracking.</p></div>
         </div>
       </div>
       <div class="col-md-4 text-center wow fadeInUp" style="margin-bottom:30px;">
         <div class="tw-service-box features-box" style="padding:32px 24px 48px;">
+          <div class="service-icon service-icon-bg-2 d-table"><div class="service-icon-inner d-table-cell"><i class="fa fa-shopping-cart"></i></div></div>
           <div class="service-content"><h3>Order Management</h3><p>Track every order from placement to delivery. Manage statuses, cancellations and returns.</p></div>
         </div>
       </div>
       <div class="col-md-4 text-center wow fadeInUp" style="margin-bottom:30px;">
         <div class="tw-service-box features-box" style="padding:32px 24px 48px;">
+          <div class="service-icon service-icon-bg-3 d-table"><div class="service-icon-inner d-table-cell"><i class="fa fa-credit-card"></i></div></div>
           <div class="service-content"><h3>Payment Integration</h3><p>Accept bKash, Nagad, bank transfer, cash on delivery and international gateways.</p></div>
         </div>
       </div>
       <div class="col-md-4 text-center wow fadeInUp" style="margin-bottom:30px;">
         <div class="tw-service-box features-box" style="padding:32px 24px 48px;">
+          <div class="service-icon service-icon-bg-4 d-table"><div class="service-icon-inner d-table-cell"><i class="fa fa-users"></i></div></div>
           <div class="service-content"><h3>Customer Accounts</h3><p>Customers can register, track orders, manage wishlist and re-order from their dashboard.</p></div>
         </div>
       </div>
       <div class="col-md-4 text-center wow fadeInUp" style="margin-bottom:30px;">
         <div class="tw-service-box features-box" style="padding:32px 24px 48px;">
+          <div class="service-icon service-icon-bg-5 d-table"><div class="service-icon-inner d-table-cell"><i class="fa fa-mobile"></i></div></div>
           <div class="service-content"><h3>Mobile Responsive</h3><p>Fully optimized for mobile, tablet and desktop. Your customers shop on any device.</p></div>
         </div>
       </div>
       <div class="col-md-4 text-center wow fadeInUp" style="margin-bottom:30px;">
         <div class="tw-service-box features-box" style="padding:32px 24px 48px;">
+          <div class="service-icon service-icon-bg-6 d-table"><div class="service-icon-inner d-table-cell"><i class="fa fa-search"></i></div></div>
           <div class="service-content"><h3>SEO Optimized</h3><p>Built-in SEO tools with meta tags, sitemap generation and fast page loads.</p></div>
         </div>
       </div>
       <div class="col-md-4 text-center wow fadeInUp" style="margin-bottom:30px;">
         <div class="tw-service-box features-box" style="padding:32px 24px 48px;">
+          <div class="service-icon service-icon-bg-1 d-table"><div class="service-icon-inner d-table-cell"><i class="fa fa-line-chart"></i></div></div>
           <div class="service-content"><h3>Analytics Dashboard</h3><p>Track sales, revenue, top products and customer behavior in real-time.</p></div>
         </div>
       </div>
       <div class="col-md-4 text-center wow fadeInUp" style="margin-bottom:30px;">
         <div class="tw-service-box features-box" style="padding:32px 24px 48px;">
+          <div class="service-icon service-icon-bg-2 d-table"><div class="service-icon-inner d-table-cell"><i class="fa fa-truck"></i></div></div>
           <div class="service-content"><h3>Shipping Management</h3><p>Set shipping zones, rates and free shipping thresholds. Integrate with delivery services.</p></div>
         </div>
       </div>
       <div class="col-md-4 text-center wow fadeInUp" style="margin-bottom:30px;">
         <div class="tw-service-box features-box" style="padding:32px 24px 48px;">
+          <div class="service-icon service-icon-bg-3 d-table"><div class="service-icon-inner d-table-cell"><i class="fa fa-tags"></i></div></div>
           <div class="service-content"><h3>Promo &amp; Discounts</h3><p>Create coupon codes, flash sales and bundle deals to boost conversions.</p></div>
         </div>
       </div>
@@ -732,7 +741,7 @@ const rawHtml = String.raw`
         </h2>
         <div style="margin-top:28px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
           <a href="/contact" class="btn btn-dark" style="padding:12px 28px;">Contact Us Today</a>
-          <a href="https://holydeen.vercel.app" target="_blank" rel="noopener" class="btn btn-outline-light" style="padding:12px 28px;">See Live Demo</a>
+          <a href="#" target="_blank" rel="noopener" class="btn btn-outline-light" style="padding:12px 28px;">See Live Demo</a>
         </div>
       </div>
     </div>
@@ -740,9 +749,9 @@ const rawHtml = String.raw`
 </section>
 
 
-        <a href="https://wa.me/8801518301098?text=Hi, I'm Interested in DeenSoft"
+        <a href="#"
             className="fixed-bottomRight  whatsappIcon" >
-            <img src="https://www.eductrl.com/images/whatsapp.png" alt="icon" class="fixed-bottomRight whatsappIcon" loading="lazy">
+            <img src="/images/whatsapp.svg" alt="icon" class="fixed-bottomRight whatsappIcon" loading="lazy">
         </a>
                     <footer id="tw-footer" class="tw-footer">
    <div class="container">
@@ -758,11 +767,11 @@ const rawHtml = String.raw`
                <div class="footer-social-link">
                   <h3>Follow us</h3>
                   <ul>
-                     <li><a target="_blank" href="https://fb.me/eductrlcrm"><i class="fa fa-facebook"></i></a></li>
-                     <li><a target="_blank" href="https://x.com/eductrlcrm" aria-label="X (Twitter)"><span class="x-logo-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></span></a></li>
+                     <li><a target="_blank" href="#"><i class="fa fa-facebook"></i></a></li>
+                     <li><a target="_blank" href="#" aria-label="X (Twitter)"><span class="x-logo-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></span></a></li>
                      <!-- <li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
-                     <li><a target="_blank" href="https://www.linkedin.com/company/eductrl/"><i class="fa fa-linkedin"></i></a></li>
-                     <li><a href="https://www.instagram.com/eductrlcrm"><i class="fa fa-instagram"></i></a></li>
+                     <li><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
+                     <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                   </ul>
                </div>
                <!-- End Social link -->
@@ -799,7 +808,7 @@ const rawHtml = String.raw`
                         <p style="display: flex;">Call or Whatsapp<br>
                          </p>
                        <p style="display:flex;justify-content: center;">
-                          <a class="footer-icon"  href="https://wa.me/+8801518301098"><i class="fa fa-whatsapp" aria-hidden="true" style="    font-size: 30px;"></i></a> &nbsp;&nbsp;&nbsp;
+                          <a class="footer-icon"  href="#"><i class="fa fa-whatsapp" aria-hidden="true" style="    font-size: 30px;"></i></a> &nbsp;&nbsp;&nbsp;
                            <a class="footer-icon" href="tel:+8801518301098"><i class="fa fa-phone-square" aria-hidden="true" style="    font-size: 30px;"></i></a>
                        </p>
                      </div>
@@ -821,18 +830,15 @@ const rawHtml = String.raw`
                         <span class="animate-border border-black"></span>
                      </div>
                      <ul>
-                        <li><a href="https://www.eductrl.com/consultancy">Consultancy CRM</a></li>
-                        <li><a href="https://www.eductrl.com/coaching">Coaching CRM</a></li>
-                        <li><a href="https://www.eductrl.com/eductrl-cms">Website Builder</a></li>
-                        <li><a href="https://www.eductrl.com/pricing">Pricing</a></li>
-                        <li><a href="https://www.eductrl.com/faq">FAQ</a></li>
+                        <li><a href="/consultancy">Consultancy CRM</a></li>
+                        <li><a href="/coaching">Coaching CRM</a></li>
+                        <li><a href="/pricing">Pricing</a></li>
+                        <li><a href="/faq">FAQ</a></li>
                      </ul>
                      <ul>
-                        <li><a href="https://www.eductrl.com/about">About Us</a></li>
-                        <li><a href="https://www.eductrl.com/blog">Blog</a></li>
-                        <li><a href="https://www.eductrl.com/contact">Contact us</a></li>
-                        <li><a href="https://www.eductrl.com/affiliates">Affiliates</a></li>
-                        <li><a href="https://www.eductrl.com/offers">Offers</a></li>
+                        <li><a href="/about">About Us</a></li>
+                        <li><a href="/blog">Blog</a></li>
+                        <li><a href="/contact">Contact us</a></li>
                      </ul>
                   </div>
                   <!-- End Footer Widget -->
@@ -858,13 +864,6 @@ const rawHtml = String.raw`
                   <!-- End footer widget -->
                </div>
                <!-- End Col -->
-               <div class="col-md-12 col-lg-6 mt-4">
-                  <div class="footer-widget footer-left-widget">
-                     <a href="https://www.eductrl.com/study-abroad">Study Abroad</a> | 
-                     <a href="https://www.eductrl.com/education-tech">Education Tech</a>
-                  </div>
-                  <!-- End Footer Widget -->
-               </div>
             </div>
             <!-- End Row -->
          </div>
@@ -884,9 +883,9 @@ const rawHtml = String.raw`
             <div class="col-md-5">
                 <div class="copyright-menu">
                     <ul>
-                        <li><a href="https://www.eductrl.com/privacy-policy">Privacy Policy</a></li>
-                        <li><a href="https://www.eductrl.com/refund-policy">Refund Policy</a></li>
-                        <li><a href="https://www.eductrl.com/terms-of-service">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
                     </ul>
                 </div>
             </div>
@@ -911,298 +910,13 @@ const rawHtml = String.raw`
 
 
     <!-- Scripts -->
-    
-    <script src="https://www.eductrl.com/assets/plugins/jquery/jquery.min.js" defer></script>
-    <script src="https://www.eductrl.com/assets/plugins/bootstrap/js/popper.min.js" defer></script>
-    <script src="https://www.eductrl.com/assets/plugins/bootstrap/js/bootstrap.min.js" defer></script>
-    <script src="https://www.eductrl.com/assets/plugins/sticky-kit-master/dist/sticky-kit.min.js" defer></script>
-    <script src="https://www.eductrl.com/assets/plugins/sparkline/jquery.sparkline.min.js" defer></script>
-    <script src="https://www.eductrl.com/assets/plugins/bootstrap-datepicker/bootstrap-datepicker.min.js" defer></script>
-    <script src="https://www.eductrl.com/assets/plugins/select2/dist/js/select2.full.min.js" defer></script>
-    <script src="https://www.eductrl.com/assets/plugins/raphael/raphael-min.js" defer></script>
-    <script src="https://www.eductrl.com/assets/plugins/morrisjs/morris.min.js" defer></script>
-    <script src="https://www.eductrl.com/assets/plugins/styleswitcher/jQuery.style.switcher.js" defer></script>
-    <script src="https://www.eductrl.com/js/owl-carousel.2.3.0.min.js" defer></script>
-    <script src="https://www.eductrl.com/js/waypoints.min.js" defer></script>
-    <script src="https://www.eductrl.com/js/jquery.counterup.min.js" defer></script>
-    <script src="https://www.eductrl.com/js/jquery.magnific.popup.js" defer></script>
-    <script src="https://www.eductrl.com/js/wow.min.js" defer></script>
-    <script src="https://www.eductrl.com/js/smoothscroll.js" defer></script>
-    <script src="https://www.eductrl.com/js/main.js" defer></script>
-
-    
-<script src="https://www.google.com/recaptcha/api.js?render=6LdkqroeAAAAABvXU2EphNeoH6QPSheI_ZTPqMmH"></script>
-
-<script>
-    (function initRecaptchaForms() {
-        function run() {
-            if (typeof jQuery === 'undefined') {
-                setTimeout(run, 50);
-                return;
-            }
-            jQuery(document).ready(function() {
-        var sitekey = '6LdkqroeAAAAABvXU2EphNeoH6QPSheI_ZTPqMmH';
-
-        function validateEmail(email) {
-            if (email.length < 6)
-                return false;
-            var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,6})?$/;
-            return emailReg.test(email);
-        }
-
-        $('#contact-form-btn').click(function() {
-
-            grecaptcha.ready(function() {
-                grecaptcha.execute(sitekey, {
-                    action: 'contact_submit'
-                }).then(function(token) {
-
-                    var name = $("#c_name").val();
-                    var email = $("#c_email").val();
-                    var phone = $("#c_phone").val();
-                    var subject = $("#c_subject").val();
-                    var message = $("#c_message").val();
-
-                    $("#returnmessage").empty(); // To empty previous error/success message.
-                    // Checking for blank fields.
-                    if (name == '' || email == '' || phone == '' || message == '') {
-                        alert("Please fill all mandatory fields");
-                    } else {
-                        // Returns successful data submission message when the entered information is stored in database.
-                        $("#contact-form-btn").attr("disabled", true);
-                        $("#contact-form-btn").val('Sending...');
-                        $.post("https://www.eductrl.com/contact/send", {
-                            c_name: name,
-                            c_email: email,
-                            c_phone: phone,
-                            c_subject: subject,
-                            c_message: message,
-                            source: 'contact form',
-                            captcha_token: token,
-                            _token: "CxEwUn85CPRuRKB5NEfi3qldzPUo0rxvx5qooIFY"
-                        }, function(data) {
-                            $("#contact-form-btn").attr("disabled", false);
-                            $("#contact-form-btn").val('SEND');
-                            if (data == '1') {
-                                $("#contact-form").trigger("reset");
-                                $("#returnmessage").html("<span style='color:#047c12;'>Your message is sent!</span>");
-                            } else {
-                                $("#returnmessage").html("<span style='color:red;'>Error occured. Please use alternative contact method.</span>");
-                            }
-                        });
-                    }
-
-                });
-            });
-        });
-
-        $('#eductrl-cms-form-btn').click(function() {
-            grecaptcha.ready(function() {
-                grecaptcha.execute(sitekey, {
-                    action: 'eductrl_cms_submit'
-                }).then(function(token) { 
-
-                    var name = $("#form_name").val();
-                    var email = $("#form_email").val();
-                    var phone = $("#form_phone").val();
-                    var message = $("#form_message").val();
-
-                    $("#l").empty(); // To empty previous error/success message.
-                    // Checking for blank fields.
-                    if (name == '' || email == '' || phone == '' || message == '') {
-                        alert("Please fill all mandatory fields");
-                    } else {
-                        // Returns successful data submission message when the entered information is stored in database.
-                        $("#eductrl-cms-form-btn").attr("disabled", true);
-                        $("#eductrl-cms-form-btn").val('Sending...');
-                        $.post("https://www.eductrl.com/eductrl-cms/send-message", {
-                            form_name: name,
-                            form_email: email,
-                            form_phone: phone,
-                            form_message: message,
-                            source: 'eductrl_cms_form',
-                            captcha_token: token,
-                            _token: "CxEwUn85CPRuRKB5NEfi3qldzPUo0rxvx5qooIFY"
-                        }, function(data) {
-                            $("#eductrl-cms-form-btn").attr("disabled", false);
-                            $("#eductrl-cms-form-btn").val('Send Message');
-                            if (data == '1') {
-                                $("#eductrl-form").trigger("reset");
-                                $("#returnmessage1").html("<span style='color:#fff;'>Your message is sent!</span>");
-                            } else {
-                                $("#returnmessage1").html("<span style='color:red;'>Error occured. Please use alternative contact method.</span>");
-                            }
-                        });
-                    }
-
-                });
-            });
-        });
-
-
-
-        $('#enquiry-form-submit').click(function() {
-            const thankYouDiv = document.getElementById('thankYouDiv');
-            const formDiv = document.getElementById('formDiv');
-            grecaptcha.ready(function() {
-                grecaptcha.execute(sitekey, {
-                    action: 'enquiry_submit'
-                }).then(function(token) {
-
-                    var name = $("#name").val();
-                    var email = $("#email").val();
-                    var phone = $("#phone").val();
-                    var business = $("#business").val();
-                    var city = $("#city").val();
-                    var country = $("#country").val();
-                    var interested_in = $("#interested_in").val();
-                    var message = $("#message").val();
-
-                    // Checking for blank fields.
-                    if (name == '' || email == '' || phone == '' || business == '' || city == '' || country == '' || interested_in == '') {
-                        //console.log("Form values:" + name + "|" + email + "|" + phone + "|" + business + "|" + city);
-                        alert('Please fill all required fields');
-                    } else {
-                        // Returns successful data submission message when the entered information is stored in database.
-                        $("#enquiry-form-submit").attr("disabled", true);
-                        $("enquiry-form-submit").val('Sending...');
-                        $.post("https://www.eductrl.com/send-enquiry", {
-                            c_name: name,
-                            c_email: email,
-                            c_phone: phone,
-                            c_business: business,
-                            c_city: city,
-                            c_country: country,
-                            c_interested_in: interested_in,
-                            c_message: message,
-                            source: 'enquiry form',
-                            captcha_token: token,
-                            _token: "CxEwUn85CPRuRKB5NEfi3qldzPUo0rxvx5qooIFY",
-                        }, function(data) {
-                            if (data == '1') {
-                                $("#enquiry-form").trigger("reset"); // To reset form fields on success.
-                                // formDiv.style.display = 'none';
-                                // thankYouDiv.style.display = 'block';
-
-                                // ✅ Redirect to a success page after short delay (optional)
-                                window.location.href = "https://www.eductrl.com/thank-you-req-demo";
-                            } else {
-                                $("#enquiry-form").trigger("reset"); // To reset form fields on success.
-                                $('#enquiryModal').modal('toggle');
-                                alert("Error occured. Please use alternative contact method.");
-                            }
-                        });
-                    }
-
-                });
-            });
-        });
-
-
-
-        $('#newsletter-form-btn').click(function() {
-
-            grecaptcha.ready(function() {
-                grecaptcha.execute(sitekey, {
-                    action: 'newsletter_submit'
-                }).then(function(token) {
-
-                    var email = $("#newsletter_email").val();
-
-                    // Checking for blank fields.
-                    if (email == '') {
-                        alert("Please enter email id");
-                    } else if (!validateEmail(email)) {
-                        alert("Please enter valid email id");
-                    } else {
-                        // Returns successful data submission message when the entered information is stored in database.
-                        $.post("https://www.eductrl.com/newsletter-subscribe", {
-                            c_email: email,
-                            source: 'newsletter form',
-                            captcha_token: token,
-                            _token: "CxEwUn85CPRuRKB5NEfi3qldzPUo0rxvx5qooIFY"
-                        }, function(data) {
-                            if (data == '1') {
-                                $("#newsletter-form").trigger("reset");
-                                alert("Thanks! You have subscribed!");
-                            } else {
-                                alert("Oops! Something went wrong.");
-                            }
-                        });
-                    }
-
-                });
-            });
-        });
-
-
-
-            });
-        }
-        if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', run);
-        } else {
-            run();
-        }
-    })();
-</script>
 
             <!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M85SFMLP"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
 
 
     <!-- Meta Pixel Code -->
-    <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '607839048127874');
-    fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=607839048127874&ev=PageView&noscript=1"
-    /></noscript>
     <!-- End Meta Pixel Code -->
-
-	<script type="text/javascript">
-	_linkedin_partner_id = "7318036";
-	window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-	window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-	</script><script type="text/javascript">
-	(function(l) {
-	if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
-	window.lintrk.q=[]}
-	var s = document.getElementsByTagName("script")[0];
-	var b = document.createElement("script");
-	b.type = "text/javascript";b.async = true;
-	b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-	s.parentNode.insertBefore(b, s);})(window.lintrk);
-	</script>
-	<noscript>
-	<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=7318036&fmt=gif" />
-	</noscript>
-
-	<script type="text/javascript">
-	var sc_project=12775076; 
-	var sc_invisible=1; 
-	var sc_security="9e105de8"; 
-	</script>
-	<script type="text/javascript"
-	src="https://www.statcounter.com/counter/counter.js"
-	async></script>
-	<noscript><div class="statcounter"><a title="web counter"
-	href="https://statcounter.com/" target="_blank"><img
-	class="statcounter"
-	src="https://c.statcounter.com/12775076/0/9e105de8/1/"
-	alt="web counter"
-	referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 
 
 	
@@ -1214,7 +928,7 @@ const html = normalizeCloneHtml(rawHtml);
 export function EcommerceCloneContent() {
   return (
     <div
-      className="eductrl-clone-page"
+      className="deensoft-clone-page"
       dangerouslySetInnerHTML={{ __html: html }}
     />
   );

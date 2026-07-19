@@ -9,6 +9,7 @@ const CLONE_PATHS = new Set([
   "/coaching",
   "/eductrl-cms",
   "/pricing",
+  "/faq",
   "/knowledgebase",
   "/blog",
   "/about",
@@ -260,6 +261,33 @@ export function CloneInteractions() {
         return;
       }
 
+      const tabToggle = event.target.closest('[data-toggle="tab"], [data-bs-toggle="tab"]');
+      if (tabToggle) {
+        event.preventDefault();
+        const targetSelector = tabToggle.getAttribute("href");
+
+        if (targetSelector?.startsWith("#")) {
+          const activePanel = document.querySelector(targetSelector);
+          const nav = tabToggle.closest(".nav");
+
+          nav?.querySelectorAll(".nav-link").forEach((element) => {
+            element.classList.remove("active");
+            element.setAttribute("aria-selected", "false");
+          });
+
+          tabToggle.classList.add("active");
+          tabToggle.setAttribute("aria-selected", "true");
+
+          activePanel?.parentElement?.querySelectorAll(".tab-pane").forEach((panel) => {
+            panel.classList.remove("show", "active");
+          });
+
+          activePanel?.classList.add("show", "active");
+        }
+
+        return;
+      }
+
       const modalClose = event.target.closest(".clone-demo-modal .close, .clone-demo-modal-backdrop");
       if (modalClose) {
         event.preventDefault();
@@ -389,27 +417,9 @@ export function CloneInteractions() {
                 <div className="clone-demo-success">
                   <h2>Thank You!</h2>
                   <p>
-                    Our team will be in touch shortly to arrange your personalized demo.
+                    Our team will be in touch shortly to arrange your personalized demo
+                    and share access details.
                   </p>
-                  <a
-                    href="https://demo.eductrl.com/cn4"
-                    className="text-primary font-weight-bold"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    https://demo.eductrl.com/cn4
-                  </a>
-                  <div className="clone-demo-credentials">
-                    <p>
-                      <strong>Admin Login:</strong> admin@demo.com / 123456
-                    </p>
-                    <p>
-                      <strong>Student Login:</strong> student@demo.com / 123456
-                    </p>
-                    <p>
-                      <strong>Staff Login:</strong> staff@demo.com / 123456
-                    </p>
-                  </div>
                 </div>
               ) : (
                 <>

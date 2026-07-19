@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Study abroad consultancy CRM illustration</title>
+  <desc id="desc">A CRM dashboard with student, lead, document and application cards.</desc>
+  <rect width="720" height="420" rx="28" fill="#eaf8f0"/>
+  <rect x="48" y="52" width="624" height="316" rx="22" fill="#ffffff" stroke="#cfe9d9"/>
+  <rect x="48" y="52" width="624" height="62" rx="22" fill="#0b2559"/>
+  <circle cx="86" cy="83" r="8" fill="#22b04c"/>
+  <circle cx="114" cy="83" r="8" fill="#58c7f3"/>
+  <circle cx="142" cy="83" r="8" fill="#f9c74f"/>
+  <rect x="190" y="76" width="210" height="14" rx="7" fill="#ffffff" opacity=".86"/>
+  <rect x="90" y="148" width="160" height="88" rx="16" fill="#f4fbf6" stroke="#d8eadf"/>
+  <rect x="280" y="148" width="160" height="88" rx="16" fill="#f8fbff" stroke="#dbeafe"/>
+  <rect x="470" y="148" width="160" height="88" rx="16" fill="#f4fbf6" stroke="#d8eadf"/>
+  <rect x="90" y="260" width="540" height="68" rx="16" fill="#f8fafc" stroke="#e5e7eb"/>
+  <g fill="none" stroke="#22b04c" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M144 195c12-18 40-18 52 0"/>
+    <circle cx="170" cy="176" r="15"/>
+    <path d="M334 196h52M334 176h52M334 216h34"/>
+    <path d="M526 212l26-34 24 19 26-38"/>
+  </g>
+  <g fill="#0b2559">
+    <rect x="128" y="282" width="160" height="12" rx="6"/>
+    <rect x="128" y="306" width="88" height="10" rx="5" opacity=".5"/>
+    <rect x="334" y="282" width="170" height="12" rx="6"/>
+    <rect x="334" y="306" width="126" height="10" rx="5" opacity=".5"/>
+  </g>
+</svg>

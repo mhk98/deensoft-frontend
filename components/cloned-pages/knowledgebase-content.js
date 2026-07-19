@@ -13,8 +13,8 @@ const rawHtml = String.raw`
                <div class="col-md-12">
                    <div class="offcanvas-wrapper">
                        <div class="offcanvas-inner">
-                           <a href="https://www.eductrl.com" class="logo">
-                               <img src="https://www.eductrl.com/images/eductrl-logo.png" alt="EduCtrl" style="width: 60%;">
+                           <a href="/" class="logo">
+                               <img src="/images/logo.png" alt="DeenSoft" style="width: 60%;">
                            </a>
                            <p style="color:#000;margin-bottom: 0px;">DeenSoft is a feature-rich software for Overseas Education Consultancy Business, HolyDeen Store &amp; E-Commerce Solution.</p>
                            <div class="row">
@@ -52,12 +52,12 @@ const rawHtml = String.raw`
                            <!-- End Contact Row -->
                            <div class="footer-social-link">
                                <ul>
-                                   <li><a target="_blank" href="https://fb.me/eductrlcrm"><i
+                                   <li><a target="_blank" href="#"><i
                                                class="fa fa-facebook"></i></a></li>
-                                   <li><a target="_blank" href="https://x.com/eductrlcrm" aria-label="X (Twitter)"><span class="x-logo-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></span></a></li>
-                                   <li><a target="_blank" href="https://www.linkedin.com/company/eductrl/"><i
+                                   <li><a target="_blank" href="#" aria-label="X (Twitter)"><span class="x-logo-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></span></a></li>
+                                   <li><a target="_blank" href="#"><i
                                                class="fa fa-linkedin"></i></a></li>
-                     <li><a href="https://www.instagram.com/eductrlcrm"><i class="fa fa-instagram"></i></a></li>
+                     <li><a href="#"><i class="fa fa-instagram"></i></a></li>
 
                                    <!-- <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                            <li><a href="#"><i class="fa fa-instagram"></i></a></li> -->
@@ -103,8 +103,8 @@ const rawHtml = String.raw`
                                feel free to
                                explore our live software demo:
                            </p>
-                           <a href="https://demo.eductrl.com/cn4" class="text-primary font-weight-bold" target="_blank"
-                               style="font-size: 1rem;">https://demo.eductrl.com/cn4</a>
+                           <a href="#" class="text-primary font-weight-bold" target="_blank"
+                               style="font-size: 1rem;">#</a>
                            <div class="mt-4 text-start mx-auto" style="max-width: 400px;">
                                <p class="mb-2" style="font-size: 0.95rem;"><strong>Admin Login:</strong>
                                    admin@demo.com / 123456
@@ -444,12 +444,12 @@ const rawHtml = String.raw`
             <div class="col-md-4 ml-auto text-right">
                <div class="top-social-links">
                   <span>Follow us:</span>
-                  <a target="_blank" href="https://fb.me/eductrlcrm"><i class="fa fa-facebook"></i></a>
-                  <a target="_blank" href="https://x.com/eductrlcrm" aria-label="X (Twitter)"><span class="x-logo-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></span></a>
-                  <a target="_blank" href="https://www.linkedin.com/company/eductrl/"><i class="fa fa-linkedin"></i></a>
+                  <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                  <a target="_blank" href="#" aria-label="X (Twitter)"><span class="x-logo-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="1em" height="1em"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></span></a>
+                  <a target="_blank" href="#"><i class="fa fa-linkedin"></i></a>
 
                   <!-- <a href="#"><i class="fa fa-google-plus"></i></a> -->
-                  <a href="https://www.instagram.com/eductrlcrm"><i class="fa fa-instagram"></i></a> 
+                  <a href="#"><i class="fa fa-instagram"></i></a> 
                </div>
             </div>
             <!-- Col End -->
@@ -465,8 +465,8 @@ const rawHtml = String.raw`
     <div class="tw-header">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-new-blue p-2">
-                <a class="navbar-brand tw-nav-brand header-size" href="https://www.eductrl.com">
-                    <img src="https://www.eductrl.com/images/eductrl-logo.png" alt="EduCtrl" class="header-logo-size">
+                <a class="navbar-brand tw-nav-brand header-size" href="/">
+                    <img src="/images/logo.png" alt="DeenSoft" class="header-logo-size">
                 </a>
                 <!-- End of Navbar Brand -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -477,7 +477,7 @@ const rawHtml = String.raw`
                 <!-- End of Navbar toggler -->
                 <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link p-2" href="https://www.eductrl.com">Home</a></li>
+                        <li class="nav-item"><a class="nav-link p-2" href="/">Home</a></li>
 
                         <li class="nav-item dropdown">
                             <a class="nav-link p-2" href="#" data-toggle="dropdown">
@@ -487,8 +487,8 @@ const rawHtml = String.raw`
                             <ul id="tw-megamenu" class="dropdown-menu tw-mega-menu p-4" style="min-width: 500px;">
                                 <div class="row justify-content-start p-2">
                                     <div class="col-6 mb-3 hover-scale p-3">
-                                        <a href="https://www.eductrl.com/consultancy">
-                                            <p class="font-weight-bold m-0 p-0" style="font-size:15px;">Consultancy CRM</p>
+                                        <a href="/consultancy">
+                                            <p class="font-weight-bold m-0 p-0" style="font-size:15px;">EduConnect CRM</p>
                                             <p class="text-muted p-0 m-0 mt-2">CRM software for study abroad consultancy</p>
                                         </a>
                                     </div>
@@ -509,13 +509,13 @@ const rawHtml = String.raw`
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link p-2" href="https://www.eductrl.com/pricing">Pricing</a>
+                            <a class="nav-link p-2" href="/pricing">Pricing</a>
                         </li>
 
                         <li class="nav-item"><a class="nav-link p-2" href="/blog">Blog</a></li>
 
-                        <li class="nav-item"><a class="nav-link p-2" href="https://www.eductrl.com/about">About Us</a></li>
-                        <li class="nav-item"><a class="nav-link p-2" href="https://www.eductrl.com/contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link p-2" href="/about">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link p-2" href="/contact">Contact</a></li>
 
                         <li class="text-center mt-2 d-md-none d-sm-block">
                             <button class="btn btn-dark" data-toggle="modal" data-target="#enquiryModal"
@@ -618,14 +618,14 @@ const rawHtml = String.raw`
                 <div class="card-body" style="padding: 12px;">
                     <h5 class="card-title" style="border-bottom: 1px solid #ccc;padding-bottom: 8px;">Getting Started</h5>
                     <ul class="list-unstyled kb-articles-list" style="margin-bottom: 0px;">
-                                                <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/understanding-the-eductrl-dashboard">Understanding the EduCtrl Dashboard</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/adding-your-first-student-lead">Adding Your First Student Lead</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/navigating-the-eductrl-crm-interface">Navigating the EduCtrl CRM Interface</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/crm-terminologies-explained">CRM Terminologies Explained</a></li>
+                                                <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/understanding-the-deensoft-dashboard">Understanding the DeenSoft Dashboard</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/adding-your-first-student-lead">Adding Your First Student Lead</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/navigating-the-deensoft-crm-interface">Navigating the DeenSoft CRM Interface</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/crm-terminologies-explained">CRM Terminologies Explained</a></li>
                                                                     </ul>
                 </div>
                 <div class="card-footer bg-white border-top-0">
-                    <a href="https://www.eductrl.com/knowledgebase/category/getting-started" class="btn btn-sm btn-outline">View All</a>
+                    <a href="/knowledgebase/category/getting-started" class="btn btn-sm btn-outline">View All</a>
                 </div>
             </div>
         </div>
@@ -634,14 +634,14 @@ const rawHtml = String.raw`
                 <div class="card-body" style="padding: 12px;">
                     <h5 class="card-title" style="border-bottom: 1px solid #ccc;padding-bottom: 8px;">Customization &amp; Settings</h5>
                     <ul class="list-unstyled kb-articles-list" style="margin-bottom: 0px;">
-                                                <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/how-to-configure-your-crm-settings">How to Configure Your CRM Settings</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/setting-up-custom-lead-stages">Setting Up Custom Lead Stages</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/adding-custom-fields-to-student-profiles">Adding Custom Fields to Student Profiles</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/personalizing-notification-preferences">Personalizing Notification Preferences</a></li>
+                                                <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/how-to-configure-your-crm-settings">How to Configure Your CRM Settings</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/setting-up-custom-lead-stages">Setting Up Custom Lead Stages</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/adding-custom-fields-to-student-profiles">Adding Custom Fields to Student Profiles</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/personalizing-notification-preferences">Personalizing Notification Preferences</a></li>
                                                                     </ul>
                 </div>
                 <div class="card-footer bg-white border-top-0">
-                    <a href="https://www.eductrl.com/knowledgebase/category/customization-settings" class="btn btn-sm btn-outline">View All</a>
+                    <a href="/knowledgebase/category/customization-settings" class="btn btn-sm btn-outline">View All</a>
                 </div>
             </div>
         </div>
@@ -650,14 +650,14 @@ const rawHtml = String.raw`
                 <div class="card-body" style="padding: 12px;">
                     <h5 class="card-title" style="border-bottom: 1px solid #ccc;padding-bottom: 8px;">Staff Management &amp; Permissions</h5>
                     <ul class="list-unstyled kb-articles-list" style="margin-bottom: 0px;">
-                                                <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/adding-and-managing-staff-accounts">Adding and Managing Staff Accounts</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/assigning-roles-and-permissions-to-staff">Assigning Roles and Permissions to Staff</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/reassigning-leads-among-team-members">Reassigning Leads Among Team Members</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/setting-access-restrictions-by-user-role">Setting Access Restrictions by User Role</a></li>
+                                                <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/adding-and-managing-staff-accounts">Adding and Managing Staff Accounts</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/assigning-roles-and-permissions-to-staff">Assigning Roles and Permissions to Staff</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/reassigning-leads-among-team-members">Reassigning Leads Among Team Members</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/setting-access-restrictions-by-user-role">Setting Access Restrictions by User Role</a></li>
                                                                     </ul>
                 </div>
                 <div class="card-footer bg-white border-top-0">
-                    <a href="https://www.eductrl.com/knowledgebase/category/staff-management-permissions" class="btn btn-sm btn-outline">View All</a>
+                    <a href="/knowledgebase/category/staff-management-permissions" class="btn btn-sm btn-outline">View All</a>
                 </div>
             </div>
         </div>
@@ -666,14 +666,14 @@ const rawHtml = String.raw`
                 <div class="card-body" style="padding: 12px;">
                     <h5 class="card-title" style="border-bottom: 1px solid #ccc;padding-bottom: 8px;">Leads Management</h5>
                     <ul class="list-unstyled kb-articles-list" style="margin-bottom: 0px;">
-                                                <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/how-to-capture-leads-from-your-website">How to Capture Leads from Your Website</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/managing-inquiries-from-facebook-lead-ads">Managing Inquiries from Facebook Lead Ads</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/lead-qualification-and-status-tracking">Lead Qualification and Status Tracking</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/importing-and-exporting-lead-data">Importing and Exporting Lead Data</a></li>
+                                                <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/how-to-capture-leads-from-your-website">How to Capture Leads from Your Website</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/managing-inquiries-from-facebook-lead-ads">Managing Inquiries from Facebook Lead Ads</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/lead-qualification-and-status-tracking">Lead Qualification and Status Tracking</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/importing-and-exporting-lead-data">Importing and Exporting Lead Data</a></li>
                                                                     </ul>
                 </div>
                 <div class="card-footer bg-white border-top-0">
-                    <a href="https://www.eductrl.com/knowledgebase/category/leads-management" class="btn btn-sm btn-outline">View All</a>
+                    <a href="/knowledgebase/category/leads-management" class="btn btn-sm btn-outline">View All</a>
                 </div>
             </div>
         </div>
@@ -682,15 +682,15 @@ const rawHtml = String.raw`
                 <div class="card-body" style="padding: 12px;">
                     <h5 class="card-title" style="border-bottom: 1px solid #ccc;padding-bottom: 8px;">Student Profiles &amp; Applications</h5>
                     <ul class="list-unstyled kb-articles-list" style="margin-bottom: 0px;">
-                                                <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/creating-and-updating-a-student-profile">Creating and Updating a Student Profile</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/uploading-and-managing-student-documents">Uploading and Managing Student Documents</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/tracking-application-status-across-universities">Tracking Application Status Across Universities</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/linking-students-to-multiple-courses-or-countries">Linking Students to Multiple Courses or Countries</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/managing-application-milestones-and-deadlines">Managing Application Milestones and Deadlines</a></li>
+                                                <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/creating-and-updating-a-student-profile">Creating and Updating a Student Profile</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/uploading-and-managing-student-documents">Uploading and Managing Student Documents</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/tracking-application-status-across-universities">Tracking Application Status Across Universities</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/linking-students-to-multiple-courses-or-countries">Linking Students to Multiple Courses or Countries</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/managing-application-milestones-and-deadlines">Managing Application Milestones and Deadlines</a></li>
                                                                     </ul>
                 </div>
                 <div class="card-footer bg-white border-top-0">
-                    <a href="https://www.eductrl.com/knowledgebase/category/student-profiles-applications" class="btn btn-sm btn-outline">View All</a>
+                    <a href="/knowledgebase/category/student-profiles-applications" class="btn btn-sm btn-outline">View All</a>
                 </div>
             </div>
         </div>
@@ -699,13 +699,13 @@ const rawHtml = String.raw`
                 <div class="card-body" style="padding: 12px;">
                     <h5 class="card-title" style="border-bottom: 1px solid #ccc;padding-bottom: 8px;">Course Finder</h5>
                     <ul class="list-unstyled kb-articles-list" style="margin-bottom: 0px;">
-                                                <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/using-course-finder-to-search-global-programs">Using Course Finder to Search Global Programs</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/importing-course-data-to-crm">Importing Course Data to CRM</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/sending-course-recommendation-to-students">Sending Course Recommendation to Students</a></li>
+                                                <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/using-course-finder-to-search-global-programs">Using Course Finder to Search Global Programs</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/importing-course-data-to-crm">Importing Course Data to CRM</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/sending-course-recommendation-to-students">Sending Course Recommendation to Students</a></li>
                                                                     </ul>
                 </div>
                 <div class="card-footer bg-white border-top-0">
-                    <a href="https://www.eductrl.com/knowledgebase/category/course-finder" class="btn btn-sm btn-outline">View All</a>
+                    <a href="/knowledgebase/category/course-finder" class="btn btn-sm btn-outline">View All</a>
                 </div>
             </div>
         </div>
@@ -714,16 +714,16 @@ const rawHtml = String.raw`
                 <div class="card-body" style="padding: 12px;">
                     <h5 class="card-title" style="border-bottom: 1px solid #ccc;padding-bottom: 8px;">Communication</h5>
                     <ul class="list-unstyled kb-articles-list" style="margin-bottom: 0px;">
-                                                <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/sending-email-messages-from-eductrl">Sending Email Messages from EduCtrl</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/sending-whatsapp-messages-from-eductrl">Sending Whatsapp Messages from EduCtrl</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/email-templates-how-to-create-and-use-them">Email Templates: How to Create and Use Them</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/whatsapp-templates-how-to-create-and-use-them">Whatsapp Templates: How to Create and Use Them</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/setting-up-sms-alerts">Setting Up SMS Alerts</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/calling-students-from-eductrl">Calling Students from EduCtrl</a></li>
+                                                <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/sending-email-messages-from-deensoft">Sending Email Messages from DeenSoft</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/sending-whatsapp-messages-from-deensoft">Sending Whatsapp Messages from DeenSoft</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/email-templates-how-to-create-and-use-them">Email Templates: How to Create and Use Them</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/whatsapp-templates-how-to-create-and-use-them">Whatsapp Templates: How to Create and Use Them</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/setting-up-sms-alerts">Setting Up SMS Alerts</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/calling-students-from-deensoft">Calling Students from DeenSoft</a></li>
                                                                         </ul>
                 </div>
                 <div class="card-footer bg-white border-top-0">
-                    <a href="https://www.eductrl.com/knowledgebase/category/communication" class="btn btn-sm btn-outline">View All</a>
+                    <a href="/knowledgebase/category/communication" class="btn btn-sm btn-outline">View All</a>
                 </div>
             </div>
         </div>
@@ -732,13 +732,13 @@ const rawHtml = String.raw`
                 <div class="card-body" style="padding: 12px;">
                     <h5 class="card-title" style="border-bottom: 1px solid #ccc;padding-bottom: 8px;">Workflow Automation</h5>
                     <ul class="list-unstyled kb-articles-list" style="margin-bottom: 0px;">
-                                                <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/introduction-to-workflow-automation-in-eductrl">Introduction to Workflow Automation in EduCtrl</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/setting-up-automatic-follow-up-reminders">Setting Up Automatic Follow-Up Reminders</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/triggering-actions-based-on-lead-status">Triggering Actions Based on Lead Status</a></li>
+                                                <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/introduction-to-workflow-automation-in-deensoft">Introduction to Workflow Automation in DeenSoft</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/setting-up-automatic-follow-up-reminders">Setting Up Automatic Follow-Up Reminders</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/triggering-actions-based-on-lead-status">Triggering Actions Based on Lead Status</a></li>
                                                                     </ul>
                 </div>
                 <div class="card-footer bg-white border-top-0">
-                    <a href="https://www.eductrl.com/knowledgebase/category/workflow-automation" class="btn btn-sm btn-outline">View All</a>
+                    <a href="/knowledgebase/category/workflow-automation" class="btn btn-sm btn-outline">View All</a>
                 </div>
             </div>
         </div>
@@ -747,13 +747,13 @@ const rawHtml = String.raw`
                 <div class="card-body" style="padding: 12px;">
                     <h5 class="card-title" style="border-bottom: 1px solid #ccc;padding-bottom: 8px;">Marketing &amp; Campaigns</h5>
                     <ul class="list-unstyled kb-articles-list" style="margin-bottom: 0px;">
-                                                <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/creating-and-sending-email-campaigns">Creating and Sending Email Campaigns</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/segmenting-leads-for-targeted-marketing">Segmenting Leads for Targeted Marketing</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/nurturing-cold-leads-through-automation">Nurturing Cold Leads Through Automation</a></li>
+                                                <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/creating-and-sending-email-campaigns">Creating and Sending Email Campaigns</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/segmenting-leads-for-targeted-marketing">Segmenting Leads for Targeted Marketing</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/nurturing-cold-leads-through-automation">Nurturing Cold Leads Through Automation</a></li>
                                                                     </ul>
                 </div>
                 <div class="card-footer bg-white border-top-0">
-                    <a href="https://www.eductrl.com/knowledgebase/category/marketing-campaigns" class="btn btn-sm btn-outline">View All</a>
+                    <a href="/knowledgebase/category/marketing-campaigns" class="btn btn-sm btn-outline">View All</a>
                 </div>
             </div>
         </div>
@@ -762,11 +762,11 @@ const rawHtml = String.raw`
                 <div class="card-body" style="padding: 12px;">
                     <h5 class="card-title" style="border-bottom: 1px solid #ccc;padding-bottom: 8px;">Reports &amp; Analytics</h5>
                     <ul class="list-unstyled kb-articles-list" style="margin-bottom: 0px;">
-                                                <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/generating-and-analyzing-reports-in-eductrl-crm">Generating and Analyzing Reports in EduCtrl CRM</a></li>
+                                                <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/generating-and-analyzing-reports-in-deensoft-crm">Generating and Analyzing Reports in DeenSoft CRM</a></li>
                                                                     </ul>
                 </div>
                 <div class="card-footer bg-white border-top-0">
-                    <a href="https://www.eductrl.com/knowledgebase/category/reports-analytics" class="btn btn-sm btn-outline">View All</a>
+                    <a href="/knowledgebase/category/reports-analytics" class="btn btn-sm btn-outline">View All</a>
                 </div>
             </div>
         </div>
@@ -775,12 +775,12 @@ const rawHtml = String.raw`
                 <div class="card-body" style="padding: 12px;">
                     <h5 class="card-title" style="border-bottom: 1px solid #ccc;padding-bottom: 8px;">Invoices</h5>
                     <ul class="list-unstyled kb-articles-list" style="margin-bottom: 0px;">
-                                                <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/creating-invoice-for-a-student">Creating Invoice for a student</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/creating-invoice-for-university">Creating Invoice for University</a></li>
+                                                <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/creating-invoice-for-a-student">Creating Invoice for a student</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/creating-invoice-for-university">Creating Invoice for University</a></li>
                                                                     </ul>
                 </div>
                 <div class="card-footer bg-white border-top-0">
-                    <a href="https://www.eductrl.com/knowledgebase/category/invoices" class="btn btn-sm btn-outline">View All</a>
+                    <a href="/knowledgebase/category/invoices" class="btn btn-sm btn-outline">View All</a>
                 </div>
             </div>
         </div>
@@ -789,25 +789,25 @@ const rawHtml = String.raw`
                 <div class="card-body" style="padding: 12px;">
                     <h5 class="card-title" style="border-bottom: 1px solid #ccc;padding-bottom: 8px;">Integrations</h5>
                     <ul class="list-unstyled kb-articles-list" style="margin-bottom: 0px;">
-                                                <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/web-form-to-lead">Web Form to Lead</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/whatsapp-integration">WhatsApp Integration</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/facebook-lead-integration">Facebook Lead Integration</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/zapier-integration">Zapier Integration</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/pabbly-integration">Pabbly Integration</a></li>
-                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="https://www.eductrl.com/knowledgebase/makecom-integration">Make.com Integration</a></li>
+                                                <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/web-form-to-lead">Web Form to Lead</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/whatsapp-integration">WhatsApp Integration</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/facebook-lead-integration">Facebook Lead Integration</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/zapier-integration">Zapier Integration</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/pabbly-integration">Pabbly Integration</a></li>
+                                                                        <li style="line-height: 20px;margin-top: 8px;font-size: 15px;"><a href="/knowledgebase/makecom-integration">Make.com Integration</a></li>
                                                                         </ul>
                 </div>
                 <div class="card-footer bg-white border-top-0">
-                    <a href="https://www.eductrl.com/knowledgebase/category/integrations" class="btn btn-sm btn-outline">View All</a>
+                    <a href="/knowledgebase/category/integrations" class="btn btn-sm btn-outline">View All</a>
                 </div>
             </div>
         </div>
             </div>
 
 </div>
-        <a href="https://wa.me/8801518301098?text=Hi, I'm Interested in EduCtrl"
+        <a href="#"
             className="fixed-bottomRight  whatsappIcon" >
-            <img src="https://www.eductrl.com/images/whatsapp.png" alt="icon" class="fixed-bottomRight whatsappIcon" loading="lazy">
+            <img src="/images/whatsapp.svg" alt="icon" class="fixed-bottomRight whatsappIcon" loading="lazy">
         </a>
                     <footer id="tw-footer" class="tw-footer" style="background-color:#fff;">
       <div class="copyright">
@@ -820,9 +820,9 @@ const rawHtml = String.raw`
             <div class="col-md-5">
                 <div class="copyright-menu">
                     <ul>
-                        <li><a href="https://www.eductrl.com/privacy-policy">Privacy Policy</a></li>
-                        <li><a href="https://www.eductrl.com/refund-policy">Refund Policy</a></li>
-                        <li><a href="https://www.eductrl.com/terms-of-service">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
                     </ul>
                 </div>
             </div>
@@ -847,241 +847,6 @@ const rawHtml = String.raw`
 
 
     <!-- Scripts -->
-    
-    <script src="https://www.eductrl.com/assets/plugins/jquery/jquery.min.js" defer></script>
-    <script src="https://www.eductrl.com/assets/plugins/bootstrap/js/popper.min.js" defer></script>
-    <script src="https://www.eductrl.com/assets/plugins/bootstrap/js/bootstrap.min.js" defer></script>
-    <script src="https://www.eductrl.com/assets/plugins/sticky-kit-master/dist/sticky-kit.min.js" defer></script>
-    <script src="https://www.eductrl.com/assets/plugins/sparkline/jquery.sparkline.min.js" defer></script>
-    <script src="https://www.eductrl.com/assets/plugins/bootstrap-datepicker/bootstrap-datepicker.min.js" defer></script>
-    <script src="https://www.eductrl.com/assets/plugins/select2/dist/js/select2.full.min.js" defer></script>
-    <script src="https://www.eductrl.com/assets/plugins/raphael/raphael-min.js" defer></script>
-    <script src="https://www.eductrl.com/assets/plugins/morrisjs/morris.min.js" defer></script>
-    <script src="https://www.eductrl.com/assets/plugins/styleswitcher/jQuery.style.switcher.js" defer></script>
-    <script src="https://www.eductrl.com/js/owl-carousel.2.3.0.min.js" defer></script>
-    <script src="https://www.eductrl.com/js/waypoints.min.js" defer></script>
-    <script src="https://www.eductrl.com/js/jquery.counterup.min.js" defer></script>
-    <script src="https://www.eductrl.com/js/jquery.magnific.popup.js" defer></script>
-    <script src="https://www.eductrl.com/js/wow.min.js" defer></script>
-    <script src="https://www.eductrl.com/js/smoothscroll.js" defer></script>
-    <script src="https://www.eductrl.com/js/main.js" defer></script>
-
-    
-<script src="https://www.google.com/recaptcha/api.js?render=6LdkqroeAAAAABvXU2EphNeoH6QPSheI_ZTPqMmH"></script>
-
-<script>
-    (function initRecaptchaForms() {
-        function run() {
-            if (typeof jQuery === 'undefined') {
-                setTimeout(run, 50);
-                return;
-            }
-            jQuery(document).ready(function() {
-        var sitekey = '6LdkqroeAAAAABvXU2EphNeoH6QPSheI_ZTPqMmH';
-
-        function validateEmail(email) {
-            if (email.length < 6)
-                return false;
-            var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,6})?$/;
-            return emailReg.test(email);
-        }
-
-        $('#contact-form-btn').click(function() {
-
-            grecaptcha.ready(function() {
-                grecaptcha.execute(sitekey, {
-                    action: 'contact_submit'
-                }).then(function(token) {
-
-                    var name = $("#c_name").val();
-                    var email = $("#c_email").val();
-                    var phone = $("#c_phone").val();
-                    var subject = $("#c_subject").val();
-                    var message = $("#c_message").val();
-
-                    $("#returnmessage").empty(); // To empty previous error/success message.
-                    // Checking for blank fields.
-                    if (name == '' || email == '' || phone == '' || message == '') {
-                        alert("Please fill all mandatory fields");
-                    } else {
-                        // Returns successful data submission message when the entered information is stored in database.
-                        $("#contact-form-btn").attr("disabled", true);
-                        $("#contact-form-btn").val('Sending...');
-                        $.post("https://www.eductrl.com/contact/send", {
-                            c_name: name,
-                            c_email: email,
-                            c_phone: phone,
-                            c_subject: subject,
-                            c_message: message,
-                            source: 'contact form',
-                            captcha_token: token,
-                            _token: "OnST9LHZYkU5QonMVJcgdGy4WO5feZ7U82PrzUw1"
-                        }, function(data) {
-                            $("#contact-form-btn").attr("disabled", false);
-                            $("#contact-form-btn").val('SEND');
-                            if (data == '1') {
-                                $("#contact-form").trigger("reset");
-                                $("#returnmessage").html("<span style='color:#047c12;'>Your message is sent!</span>");
-                            } else {
-                                $("#returnmessage").html("<span style='color:red;'>Error occured. Please use alternative contact method.</span>");
-                            }
-                        });
-                    }
-
-                });
-            });
-        });
-
-        $('#eductrl-cms-form-btn').click(function() {
-            grecaptcha.ready(function() {
-                grecaptcha.execute(sitekey, {
-                    action: 'eductrl_cms_submit'
-                }).then(function(token) { 
-
-                    var name = $("#form_name").val();
-                    var email = $("#form_email").val();
-                    var phone = $("#form_phone").val();
-                    var message = $("#form_message").val();
-
-                    $("#l").empty(); // To empty previous error/success message.
-                    // Checking for blank fields.
-                    if (name == '' || email == '' || phone == '' || message == '') {
-                        alert("Please fill all mandatory fields");
-                    } else {
-                        // Returns successful data submission message when the entered information is stored in database.
-                        $("#eductrl-cms-form-btn").attr("disabled", true);
-                        $("#eductrl-cms-form-btn").val('Sending...');
-                        $.post("https://www.eductrl.com/eductrl-cms/send-message", {
-                            form_name: name,
-                            form_email: email,
-                            form_phone: phone,
-                            form_message: message,
-                            source: 'eductrl_cms_form',
-                            captcha_token: token,
-                            _token: "OnST9LHZYkU5QonMVJcgdGy4WO5feZ7U82PrzUw1"
-                        }, function(data) {
-                            $("#eductrl-cms-form-btn").attr("disabled", false);
-                            $("#eductrl-cms-form-btn").val('Send Message');
-                            if (data == '1') {
-                                $("#eductrl-form").trigger("reset");
-                                $("#returnmessage1").html("<span style='color:#fff;'>Your message is sent!</span>");
-                            } else {
-                                $("#returnmessage1").html("<span style='color:red;'>Error occured. Please use alternative contact method.</span>");
-                            }
-                        });
-                    }
-
-                });
-            });
-        });
-
-
-
-        $('#enquiry-form-submit').click(function() {
-            const thankYouDiv = document.getElementById('thankYouDiv');
-            const formDiv = document.getElementById('formDiv');
-            grecaptcha.ready(function() {
-                grecaptcha.execute(sitekey, {
-                    action: 'enquiry_submit'
-                }).then(function(token) {
-
-                    var name = $("#name").val();
-                    var email = $("#email").val();
-                    var phone = $("#phone").val();
-                    var business = $("#business").val();
-                    var city = $("#city").val();
-                    var country = $("#country").val();
-                    var interested_in = $("#interested_in").val();
-                    var message = $("#message").val();
-
-                    // Checking for blank fields.
-                    if (name == '' || email == '' || phone == '' || business == '' || city == '' || country == '' || interested_in == '') {
-                        //console.log("Form values:" + name + "|" + email + "|" + phone + "|" + business + "|" + city);
-                        alert('Please fill all required fields');
-                    } else {
-                        // Returns successful data submission message when the entered information is stored in database.
-                        $("#enquiry-form-submit").attr("disabled", true);
-                        $("enquiry-form-submit").val('Sending...');
-                        $.post("https://www.eductrl.com/send-enquiry", {
-                            c_name: name,
-                            c_email: email,
-                            c_phone: phone,
-                            c_business: business,
-                            c_city: city,
-                            c_country: country,
-                            c_interested_in: interested_in,
-                            c_message: message,
-                            source: 'enquiry form',
-                            captcha_token: token,
-                            _token: "OnST9LHZYkU5QonMVJcgdGy4WO5feZ7U82PrzUw1",
-                        }, function(data) {
-                            if (data == '1') {
-                                $("#enquiry-form").trigger("reset"); // To reset form fields on success.
-                                // formDiv.style.display = 'none';
-                                // thankYouDiv.style.display = 'block';
-
-                                // ✅ Redirect to a success page after short delay (optional)
-                                window.location.href = "https://www.eductrl.com/thank-you-req-demo";
-                            } else {
-                                $("#enquiry-form").trigger("reset"); // To reset form fields on success.
-                                $('#enquiryModal').modal('toggle');
-                                alert("Error occured. Please use alternative contact method.");
-                            }
-                        });
-                    }
-
-                });
-            });
-        });
-
-
-
-        $('#newsletter-form-btn').click(function() {
-
-            grecaptcha.ready(function() {
-                grecaptcha.execute(sitekey, {
-                    action: 'newsletter_submit'
-                }).then(function(token) {
-
-                    var email = $("#newsletter_email").val();
-
-                    // Checking for blank fields.
-                    if (email == '') {
-                        alert("Please enter email id");
-                    } else if (!validateEmail(email)) {
-                        alert("Please enter valid email id");
-                    } else {
-                        // Returns successful data submission message when the entered information is stored in database.
-                        $.post("https://www.eductrl.com/newsletter-subscribe", {
-                            c_email: email,
-                            source: 'newsletter form',
-                            captcha_token: token,
-                            _token: "OnST9LHZYkU5QonMVJcgdGy4WO5feZ7U82PrzUw1"
-                        }, function(data) {
-                            if (data == '1') {
-                                $("#newsletter-form").trigger("reset");
-                                alert("Thanks! You have subscribed!");
-                            } else {
-                                alert("Oops! Something went wrong.");
-                            }
-                        });
-                    }
-
-                });
-            });
-        });
-
-
-
-            });
-        }
-        if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', run);
-        } else {
-            run();
-        }
-    })();
-</script>
 
     <style>
     .kb-articles-list li a {
@@ -1092,61 +857,11 @@ const rawHtml = String.raw`
     }
 </style>
         <!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M85SFMLP"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
 
 
     <!-- Meta Pixel Code -->
-    <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '607839048127874');
-    fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=607839048127874&ev=PageView&noscript=1"
-    /></noscript>
     <!-- End Meta Pixel Code -->
-
-	<script type="text/javascript">
-	_linkedin_partner_id = "7318036";
-	window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-	window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-	</script><script type="text/javascript">
-	(function(l) {
-	if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
-	window.lintrk.q=[]}
-	var s = document.getElementsByTagName("script")[0];
-	var b = document.createElement("script");
-	b.type = "text/javascript";b.async = true;
-	b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-	s.parentNode.insertBefore(b, s);})(window.lintrk);
-	</script>
-	<noscript>
-	<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=7318036&fmt=gif" />
-	</noscript>
-
-	<script type="text/javascript">
-	var sc_project=12775076; 
-	var sc_invisible=1; 
-	var sc_security="9e105de8"; 
-	</script>
-	<script type="text/javascript"
-	src="https://www.statcounter.com/counter/counter.js"
-	async></script>
-	<noscript><div class="statcounter"><a title="web counter"
-	href="https://statcounter.com/" target="_blank"><img
-	class="statcounter"
-	src="https://c.statcounter.com/12775076/0/9e105de8/1/"
-	alt="web counter"
-	referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 
 
 	
@@ -1155,7 +870,7 @@ const rawHtml = String.raw`
 export function KnowledgebaseCloneContent() {
   return (
     <div
-      className="eductrl-clone-page"
+      className="deensoft-clone-page"
       dangerouslySetInnerHTML={{ __html: normalizeCloneHtml(rawHtml) }}
     />
   );
