@@ -343,5 +343,5 @@ const rawHtml = String.raw`
 const html = normalizeCloneHtml(rawHtml);
 
 export function FaqCloneContent() {
-  return <div dangerouslySetInnerHTML={{ __html: html }} />;
+  return <div className="deensoft-clone-page" dangerouslySetInnerHTML={{ __html: html }} />;
 }

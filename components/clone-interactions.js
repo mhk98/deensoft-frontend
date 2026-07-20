@@ -163,6 +163,15 @@ export function CloneInteractions() {
       document.body.classList.remove("clone-drawer-open");
     }
 
+    function closeMobileNav() {
+      document.querySelectorAll(".navbar-collapse.clone-mobile-nav-open").forEach((element) => {
+        element.classList.remove("clone-mobile-nav-open");
+      });
+      document.querySelectorAll(".navbar-toggler[aria-expanded='true']").forEach((element) => {
+        element.setAttribute("aria-expanded", "false");
+      });
+    }
+
     function forceOpenModal() {
       setDemoFeedback({ type: "", message: "" });
       setDemoCompleted(false);
@@ -240,6 +249,36 @@ export function CloneInteractions() {
     }
 
     function handleClick(event) {
+      const navbarToggle = event.target.closest(".navbar-toggler");
+      if (navbarToggle) {
+        event.preventDefault();
+        const targetSelector =
+          navbarToggle.getAttribute("data-target") ||
+          navbarToggle.getAttribute("data-bs-target");
+        const target = targetSelector ? document.querySelector(targetSelector) : null;
+
+        if (target) {
+          const nextOpen = !target.classList.contains("clone-mobile-nav-open");
+          target.classList.toggle("clone-mobile-nav-open", nextOpen);
+          navbarToggle.setAttribute("aria-expanded", String(nextOpen));
+        }
+        return;
+      }
+
+      const mobileDropdownToggle = event.target.closest(
+        ".navbar-collapse.clone-mobile-nav-open .dropdown > .nav-link"
+      );
+      if (mobileDropdownToggle) {
+        event.preventDefault();
+        mobileDropdownToggle.closest(".dropdown")?.classList.toggle("clone-dropdown-open");
+        return;
+      }
+
+      const mobileNavLink = event.target.closest(".navbar-collapse.clone-mobile-nav-open a");
+      if (mobileNavLink && !mobileNavLink.closest(".dropdown")) {
+        closeMobileNav();
+      }
+
       const drawerToggle = event.target.closest(".tw-menu-bar");
       if (drawerToggle) {
         event.preventDefault();
@@ -313,6 +352,7 @@ export function CloneInteractions() {
     function handleKeydown(event) {
       if (event.key === "Escape") {
         closeDrawer();
+        closeMobileNav();
         forceCloseModal();
       }
     }
@@ -329,6 +369,7 @@ export function CloneInteractions() {
       document.removeEventListener("submit", handleSubmit, true);
       document.removeEventListener("keydown", handleKeydown);
       closeDrawer();
+      closeMobileNav();
       resetModalState();
     };
   }, [pathname]);

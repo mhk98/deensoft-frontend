@@ -3631,11 +3631,12 @@ body.clone-home-body {
 
 :is(.eductrl-clone-page,.deensoft-clone-page) .home-clients-logos {
   gap: 20px !important;
+  max-width: 1120px !important;
 }
 
 :is(.eductrl-clone-page,.deensoft-clone-page) .home-client-logo {
-  min-height: 96px !important;
-  padding: 16px !important;
+  min-height: 108px !important;
+  padding: 14px !important;
   border: 1px solid rgba(12, 49, 120, 0.1) !important;
   border-radius: 8px !important;
   background: #ffffff !important;
@@ -3643,9 +3644,9 @@ body.clone-home-body {
 }
 
 :is(.eductrl-clone-page,.deensoft-clone-page) .home-client-logo img {
-  width: 180px !important;
+  width: 210px !important;
   max-width: 100% !important;
-  max-height: 64px !important;
+  max-height: 72px !important;
 }
 
 /* ── Blog/latest post cards: consistent border ── */
@@ -3878,7 +3879,7 @@ body.clone-home-body {
 }
 
 :is(.eductrl-clone-page,.deensoft-clone-page) .tw-menu-bar {
-  display: inline-flex;
+  display: none !important;
   flex-direction: column;
   justify-content: center;
   gap: 5px;
@@ -4207,12 +4208,146 @@ body.clone-home-body {
     min-height: 72px;
   }
 
+  :is(.eductrl-clone-page,.deensoft-clone-page) .tw-header .navbar-brand {
+    order: 1;
+  }
+
+  :is(.eductrl-clone-page,.deensoft-clone-page) .tw-header .navbar-toggler {
+    order: 3;
+    margin-left: 14px;
+    background:
+      linear-gradient(#0b2559, #0b2559) center calc(50% - 6px) / 20px 2px no-repeat,
+      linear-gradient(#0b2559, #0b2559) center / 20px 2px no-repeat,
+      linear-gradient(#0b2559, #0b2559) center calc(50% + 6px) / 20px 2px no-repeat,
+      #ffffff !important;
+  }
+
+  :is(.eductrl-clone-page,.deensoft-clone-page) .tw-header .navbar-toggler-icon {
+    position: relative;
+    display: block;
+    width: 18px;
+    height: 2px;
+    margin: auto;
+    background: #0b2559;
+  }
+
+  :is(.eductrl-clone-page,.deensoft-clone-page) .tw-header .navbar-toggler-icon::before,
+  :is(.eductrl-clone-page,.deensoft-clone-page) .tw-header .navbar-toggler-icon::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 18px;
+    height: 2px;
+    background: #0b2559;
+  }
+
+  :is(.eductrl-clone-page,.deensoft-clone-page) .tw-header .navbar-toggler-icon::before {
+    top: -6px;
+  }
+
+  :is(.eductrl-clone-page,.deensoft-clone-page) .tw-header .navbar-toggler-icon::after {
+    top: 6px;
+  }
+
   :is(.eductrl-clone-page,.deensoft-clone-page) .tw-header .navbar-collapse {
     display: none !important;
   }
 
+  :is(.eductrl-clone-page,.deensoft-clone-page) .tw-header .navbar-collapse.clone-mobile-nav-open {
+    display: block !important;
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    right: 0;
+    z-index: 1001;
+    padding: 16px !important;
+    border: 1px solid rgba(12, 49, 120, 0.12);
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 18px 44px rgba(12, 49, 120, 0.18);
+  }
+
+  :is(.eductrl-clone-page,.deensoft-clone-page) .tw-header .navbar-collapse.clone-mobile-nav-open .navbar-nav {
+    display: grid !important;
+    gap: 6px;
+    align-items: stretch;
+  }
+
+  :is(.eductrl-clone-page,.deensoft-clone-page) .tw-header .navbar-collapse.clone-mobile-nav-open .nav-link {
+    display: block;
+    padding: 12px 10px !important;
+  }
+
+  :is(.eductrl-clone-page,.deensoft-clone-page) .tw-header .navbar-collapse.clone-mobile-nav-open .dropdown-menu {
+    display: none !important;
+    position: static;
+    left: auto !important;
+    width: 100%;
+    min-width: 0 !important;
+    max-width: none;
+    margin: 2px 0 8px !important;
+    padding: 8px !important;
+    border: 1px solid rgba(12, 49, 120, 0.08);
+    border-radius: 8px;
+    background: #f7fafc;
+    box-shadow: none !important;
+    transform: none;
+    overflow: hidden;
+  }
+
+  :is(.eductrl-clone-page,.deensoft-clone-page) .tw-header .navbar-collapse.clone-mobile-nav-open #tw-megamenu {
+    left: auto !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    transform: none !important;
+  }
+
+  :is(.eductrl-clone-page,.deensoft-clone-page) .tw-header .navbar-collapse.clone-mobile-nav-open .dropdown.clone-dropdown-open .dropdown-menu {
+    display: block !important;
+  }
+
+  :is(.eductrl-clone-page,.deensoft-clone-page) .tw-header .navbar-collapse.clone-mobile-nav-open .dropdown-menu .row {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 6px;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  :is(.eductrl-clone-page,.deensoft-clone-page) .tw-header .navbar-collapse.clone-mobile-nav-open .dropdown-menu [class*="col-"] {
+    flex: none !important;
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  :is(.eductrl-clone-page,.deensoft-clone-page) .tw-header .navbar-collapse.clone-mobile-nav-open .dropdown-menu a {
+    display: block;
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 6px;
+    background: #ffffff;
+    color: #0b2559;
+  }
+
+  :is(.eductrl-clone-page,.deensoft-clone-page) .tw-header .navbar-collapse.clone-mobile-nav-open .dropdown-menu p {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    line-height: 1.45;
+  }
+
+  :is(.eductrl-clone-page,.deensoft-clone-page) .tw-header .navbar-collapse.clone-mobile-nav-open .dropdown-menu .text-muted {
+    margin-top: 4px !important;
+    color: #64748b !important;
+    font-size: 0.9rem;
+  }
+
   :is(.eductrl-clone-page,.deensoft-clone-page) .tw-offcanvas-menu {
     display: flex !important;
+    order: 2;
+    margin-left: auto;
   }
 
   :is(.eductrl-clone-page,.deensoft-clone-page) .tw-hero-slider .slider-wrapper {
@@ -4247,12 +4382,97 @@ body.clone-home-body {
     width: min(calc(100% - 24px), 1180px);
   }
 
+  :is(.eductrl-clone-page,.deensoft-clone-page) .tw-offcanvas-menu,
+  :is(.eductrl-clone-page,.deensoft-clone-page) .mobile-display-none {
+    display: none !important;
+  }
+
+  :is(.eductrl-clone-page,.deensoft-clone-page) .tw-header .navbar {
+    position: relative;
+  }
+
+  :is(.eductrl-clone-page,.deensoft-clone-page) .tw-header .navbar-toggler {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    margin-left: 0;
+    transform: translateY(-50%);
+  }
+
+  :is(.eductrl-clone-page,.deensoft-clone-page) .tw-hero-slider .slider-wrapper {
+    padding: 42px 0 48px;
+  }
+
+  :is(.eductrl-clone-page,.deensoft-clone-page) .tw-hero-slider .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  :is(.eductrl-clone-page,.deensoft-clone-page) .tw-hero-slider [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  :is(.eductrl-clone-page,.deensoft-clone-page) .slider-content {
+    max-width: 100%;
+  }
+
+  :is(.eductrl-clone-page,.deensoft-clone-page) .slider-content h1,
+  :is(.eductrl-clone-page,.deensoft-clone-page) .slider-content p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  :is(.eductrl-clone-page,.deensoft-clone-page) .slider-content h1 {
+    max-width: 330px;
+  }
+
+  :is(.eductrl-clone-page,.deensoft-clone-page) .slider-content p {
+    max-width: 300px;
+  }
+
   :is(.eductrl-clone-page,.deensoft-clone-page) section {
     padding: 52px 0;
   }
 
   :is(.eductrl-clone-page,.deensoft-clone-page) .slider-content h1 {
-    font-size: 2.15rem;
+    font-size: 1.55rem;
+    overflow-wrap: anywhere;
+  }
+
+  :is(.eductrl-clone-page,.deensoft-clone-page) .slider-content p {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  :is(.eductrl-clone-page,.deensoft-clone-page) .slider-content .btn {
+    min-width: 0;
+    width: 146px;
+    max-width: calc(50% - 4px);
+    padding: 12px 8px;
+    font-size: 0.92rem;
+    white-space: normal;
+  }
+
+  :is(.eductrl-clone-page,.deensoft-clone-page) .tw-hero-slider .slider-img {
+    width: min(100%, 292px) !important;
+    max-height: 280px;
+  }
+
+  :is(.eductrl-clone-page,.deensoft-clone-page) .section-heading h2,
+  :is(.eductrl-clone-page,.deensoft-clone-page) .column-title,
+  :is(.eductrl-clone-page,.deensoft-clone-page) .display-4 {
+    max-width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-wrap: anywhere;
+  }
+
+  :is(.eductrl-clone-page,.deensoft-clone-page) .section-heading small,
+  :is(.eductrl-clone-page,.deensoft-clone-page) .column-title small {
+    max-width: 310px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   :is(.eductrl-clone-page,.deensoft-clone-page) .whatsnew-section img {
