@@ -2,9 +2,9 @@ import { EcommerceCloneContent } from "@/components/cloned-pages/ecommerce-conte
 import { CloneScripts } from "@/components/clone-scripts";
 
 export const metadata = {
-  title: "E-Commerce Solution | Build Your Online Store | DeenSoft",
+  title: "E-commerce Website Development Bangladesh | DeenSoft",
   description:
-    "DeenSoft builds professional, scalable e-commerce platforms. Product management, order tracking, payment integration and more — all in one solution."
+    "Launch a fast, mobile-friendly online store with DeenSoft e-commerce solution, built for products, payments, orders and growth."
 };
 
 export default function EcommerceSolutionPage() {

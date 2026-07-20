@@ -1,4 +1,5 @@
 ﻿import { normalizeCloneHtml } from "@/lib/clone-html";
+import { insertSeoContentBeforeFooter } from "@/components/seo-content-blocks";
 
 const rawHtml = String.raw`
 
@@ -1211,7 +1212,9 @@ export function ConsultancyCloneContent() {
   return (
     <div
       className="deensoft-clone-page"
-      dangerouslySetInnerHTML={{ __html: normalizeCloneHtml(rawHtml) }}
+      dangerouslySetInnerHTML={{
+        __html: insertSeoContentBeforeFooter(normalizeCloneHtml(rawHtml), "educonnect")
+      }}
     />
   );
 }

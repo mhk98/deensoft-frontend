@@ -1,4 +1,5 @@
 import { normalizeCloneHtml } from "@/lib/clone-html";
+import { insertSeoContentBeforeFooter } from "@/components/seo-content-blocks";
 
 const rawHtml = String.raw`
 
@@ -896,7 +897,7 @@ const rawHtml = String.raw`
 
 `;
 
-const html = normalizeCloneHtml(rawHtml);
+const html = insertSeoContentBeforeFooter(normalizeCloneHtml(rawHtml), "holydeen");
 
 export function HolyDeenStoreCloneContent() {
   return (

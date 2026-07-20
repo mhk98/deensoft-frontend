@@ -2,9 +2,9 @@ import { HolyDeenStoreCloneContent } from "@/components/cloned-pages/holydeen-co
 import { CloneScripts } from "@/components/clone-scripts";
 
 export const metadata = {
-  title: "HolyDeen Store | Islamic Lifestyle E-Commerce | DeenSoft",
+  title: "HolyDeen Store | Islamic Online Shop Bangladesh",
   description:
-    "HolyDeen — Bangladesh's premier Islamic lifestyle e-commerce platform. Shop men's fashion, women's fashion, cosmetics, gadgets, grocery and more."
+    "Shop Islamic lifestyle products, modest fashion, attar, gifts and daily essentials from HolyDeen Store, a trusted Islamic online shop."
 };
 
 export default function HolyDeenStorePage() {
